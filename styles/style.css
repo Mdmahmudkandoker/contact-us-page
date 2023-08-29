@@ -1,0 +1,209 @@
+/* 
+Color Code:
+
+Footer color - rgb(24, 36, 160);
+rgb(31, 114, 125)
+rgb(53, 156, 187)
+rgb(72, 209, 191)
+rgb(0, 215, 165)
+more button border color #003399
+
+*/
+
+/* google fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 92%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+/* navbar section style starts */
+
+.fill-color{
+    background-color: rgb(24, 36, 160); 
+    height: 2rem; 
+}
+
+.nav-container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+.logo-container{
+    display: flex;           
+    width: 50%;
+}
+
+.menu-items{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 9rem;
+}
+.menu-items .gradient-text{
+    background: linear-gradient(45deg, #084896, #8dc63f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;    
+    font-weight: bolder;
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+/* navbar section styles ends */
+
+
+/* main container styles starts */
+.main-container-section{
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+    background-color: #F7F7F6;
+}
+
+.main-text-container{
+    padding: 12rem 0 0 6rem;
+    width: 60%;
+
+}
+
+.main-text-container h4{
+    margin: 0 0 15px 0;
+    color: rgb(0, 215, 165);
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-text-container p{
+    font-size: 20px;
+}
+
+
+.contact-section-images-container{
+    display: flex;
+    margin-top: -4rem;
+}
+.contact-section-images1{
+    margin-right: -17rem;
+    margin-top: 150px;
+}
+
+/* form section styles starts */
+
+.form-section-container{
+    border-radius: 5px;
+    width: 60%;
+    padding: 0 0 0 100px;
+    margin-top: -16rem;
+    font-weight: bold;
+  }
+
+.form-section-container h4{
+    margin: 0 0 15px 0;
+    color: rgb(0, 215, 165);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+  }
+
+
+
+input[type=submit]{
+  width: 9rem;
+  display: block;
+  background-color: rgb(0, 215, 165);
+  color: white;
+  padding: 14px 20px;  
+  margin: 15px 0;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea{
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 18px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+input[type=submit]:hover {
+  background-color: rgb(95, 219, 190);
+}
+
+
+
+  /* form section styles Ends */
+
+  /* main section styles Ends */
+
+
+
+/* footer style starts */  
+
+.footer-container{
+    background-color: #1A0285;
+    padding: 100px;
+
+}
+
+.footer-first-section{   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.margin-top-n{
+    margin-top: -30px;
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+
+
+.text-white{
+    text-decoration: none; 
+    color: #fff;
+    font-size: 1rem;  
+}
+
+.visit-link{
+    display: block;
+    font-weight: bold;
+  }
+
+
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer section Ends */
